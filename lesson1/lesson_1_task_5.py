@@ -1,6 +1,7 @@
-def print_number(num):
+# Определяем функцию
+def print_num(num):
     print(num)
 
-
-for _ in range(11):
-    print_number(88005553535)
+# Вызываем функцию 11 раз
+for digit in "88005553535":
+    print_num(digit)
