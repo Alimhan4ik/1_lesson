@@ -1,7 +1,19 @@
-# Определяем функцию
+# Реализация функции
 def print_num(num):
-    print(num, end="")
+    print(num, end="")  # Параметр 'end' позволяет убрать перенос строки
 
-# Вызываем функцию 11 раз
-for digit in "88005553535":
-    print_num(digit)
+# Явный вызов функции 11 раз
+print_num(8)
+print_num(8)
+print_num(0)
+print_num(0)
+print_num(5)
+print_num(5)
+print_num(5)
+print_num(3)
+print_num(5)
+print_num(3)
+print_num(5)
+
+# Добавляем перенос строки вручную
+print()
