@@ -1,0 +1,19 @@
+# Реализация функции
+def print_num(num):
+    print(num, end="")  # Параметр 'end' позволяет убрать перенос строки
+
+# Явный вызов функции 11 раз
+print_num(8)
+print_num(8)
+print_num(0)
+print_num(0)
+print_num(5)
+print_num(5)
+print_num(5)
+print_num(3)
+print_num(5)
+print_num(3)
+print_num(5)
+
+# Добавляем перенос строки вручную
+print()
